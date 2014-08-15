@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="header">
+        <attr name="titleText" format="string" />
+        <attr name="descriptionText" format="string"/>
+        <attr name="headerImage" format="integer"/>
+        <attr name="heightPalliate" format="dimension"/>
+        <attr name="alpha" format="integer"/>
+        <attr name="titleSize" format="dimension"/>
+        <attr name="descriptionSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="FabView">
+        <attr name="imageSize" format="dimension"/>
+        <attr name="src" format="integer"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="backgroundFab" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxScroll">
+        <attr name="parallax_factor" format="float" />
+        <attr name="inner_parallax_factor" format="float" />
+        <attr name="parallax_views_num" format="integer" />
+        <attr name="circular_parallax" format="boolean" />
+    </declare-styleable>
+
+</resources>

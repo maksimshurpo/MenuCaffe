@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/Widget.ActionBarCafeter</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/scrollbar_vertical_track</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" />
+
+    <style name="AppTheme.Overlay">
+        <item name="android:actionBarStyle">@style/Widget.ActionBarCafeter.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Widget.ActionBarCafeter" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/MediumSeaGreen</item>
+    </style>
+
+    <style name="Widget.ActionBarCafeter.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DrawerLayoutCafeter">
+        <item name="android:background">@color/SeaGreen</item>
+    </style>
+    
+    <style name="CustomRatingBar" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+        <item name="android:numStars">5</item>
+        <item name="android:scaleX">0.5</item>
+        <item name="android:scaleY">0.5</item>
+    </style>
+
+</resources>

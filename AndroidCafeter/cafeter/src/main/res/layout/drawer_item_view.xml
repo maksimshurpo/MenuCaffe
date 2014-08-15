@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.gsugroup.android.cafeter.activitys.custom.RoundedImageView
+            android:id="@+id/icon_drawer_menu"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    <TextView android:id="@+id/drawer_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="4dp"
+              android:paddingTop="8dp"
+              android:layout_marginRight="8dp"
+              android:layout_marginLeft="4dp"
+              android:gravity="center_horizontal"
+              android:textSize="20sp"
+              android:textColor="@color/White"/>
+
+</LinearLayout>
