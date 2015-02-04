@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:0.14.+'
     }
 }
 apply plugin: 'android'
@@ -47,7 +47,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
@@ -86,6 +86,11 @@ def getVersionBuild(){
     } else {
         throw new GradleException("Could not read version.properties!")
     }
+}
+
+task prepareWrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+    distributionUrl = 'alternative.location'
 }
 
 
